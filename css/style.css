@@ -1,0 +1,34 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Courier New', Courier, monospace;
+}
+#title{
+	margin:auto;
+	text-align: center;
+}
+#title h1{
+	font-size: 60px;
+}
+#img-div{
+	float:right;
+}
+
+figcaption{
+	margin: auto;
+	font-size: 20px;
+}
+#tribute-info h1{
+	margin: auto;
+	font-size:50px;
+	font-family: 'Courier New', Courier, monospace;
+}
+#tribute-info p{
+	font-size: 30px;
+	justify-content: center;
+}
+@media only screen and (max-width: 1030px) {
+	#image img{
+		width: fit-content;
+	}
+  }
